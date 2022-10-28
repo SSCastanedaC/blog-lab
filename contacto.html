@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Blog | Sebastián Castañeda</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Bienvenidos!</h1>
+		</header>
+		<section>
+			<nav class="menu">
+				<a href="index.html">Inicio</a>
+				<a href="html.html">HTML</a>
+				<a href="css.html">CSS</a>
+				<a href="js.html">Javascript</a>
+				<a href="contacto.html" class="selected">Contacto</a>
+			</nav>
+			<article>
+                <img src="images/contacto.png" alt="JS" style="height: 120px" class="center"/>
+                <br />
+				<div>
+					<form method="post">
+                        <fieldset>
+                            <legend>Formulario de Contacto</legend>
+                            <label>Nombre:</label> <br />
+                            <input type="text" required/>
+                            <br /><br />
+                            <label>Apellido:</label> <br />
+                            <input type="text" required/>
+                            <br /><br />
+                            <label>Fecha de Nacimiento</label> <br />
+                            <input type="date" required />
+                            <br /><br />
+                            <label>Correo</label> <br />
+                            <input type="email" required/>
+                            <br /><br />
+                            <button class="enviar" type="submit">Enviar</button>
+							<br /><br />
+                        </fieldset>
+                    </form>
+                    <br />
+                    <button class="limpiar">Limpiar</button>
+				</div>
+			</article>
+		</section>
+		<footer>
+			<p>Gracias!</p>
+		</footer>
+	</body>
+</html>
